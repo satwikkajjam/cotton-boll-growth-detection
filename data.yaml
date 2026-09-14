@@ -1,0 +1,13 @@
+train: /Users/sathwik/Downloads/Cotton boll growth detection.v5i.yolov8/train/images
+val: /Users/sathwik/Downloads/Cotton boll growth detection.v5i.yolov8/valid/images
+test: /Users/sathwik/Downloads/Cotton boll growth detection.v5i.yolov8/test/images
+
+nc: 5
+names: ['Cotton Blossom', 'Cotton Bud', 'Early Boll', 'Matured Cotton Boll', 'Split Cotton Boll']
+
+roboflow:
+  workspace: p-project-ebvkg
+  project: cotton-boll-growth-detection
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/p-project-ebvkg/cotton-boll-growth-detection/dataset/5

@@ -1,0 +1,21 @@
+{
+  "model_name": "Cotton Boll Growth Detection - YOLOv8n",
+  "saved_at": "2026-09-14 10:47:00",
+  "file_path": "models/best_cotton_boll_model.pt",
+  "source_checkpoint": "runs/detect/cotton_boll_detection/weights/best.pt",
+  "architecture": "YOLOv8n (Detection)",
+  "img_size": 640,
+  "metrics": {
+    "peak_precision": "82.1%",
+    "peak_map50": "49.4%",
+    "final_epoch_trained": 69
+  },
+  "classes": {
+    "0": "Cotton Blossom",
+    "1": "Cotton Bud",
+    "2": "Early Boll",
+    "3": "Matured Cotton Boll",
+    "4": "Split Cotton Boll"
+  },
+  "deployment_ready": true
+}

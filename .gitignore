@@ -1,0 +1,19 @@
+# Datasets (too large for git)
+train/
+valid/
+test/
+
+# Checkpoint runs & logs
+runs/
+*.log
+*.pt
+!models/best_cotton_boll_model.pt
+!models/best.pt
+
+# Python & Environment
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+venv/
+env/
